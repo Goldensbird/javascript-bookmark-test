@@ -11,7 +11,9 @@ Object.assign(child.style, {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   padding: '20px',
-  zIndex: '1000'
+  zIndex: '1000',
+  width: '100%',
+  height: '100%'
 });
   
 document.body.appendChild(child);
@@ -19,3 +21,7 @@ document.body.appendChild(child);
 }
 
 run()
+
+setTimeout(() => {
+}, 2000);
+
