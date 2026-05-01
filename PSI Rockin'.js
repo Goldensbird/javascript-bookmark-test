@@ -52,4 +52,5 @@ setTimeout(() => {
 }, 1500);
 setTimeout(() => {
   runagain(false);
+  document.body.style.background = 'black';
 }, 2000);
